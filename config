@@ -198,7 +198,7 @@ exec_always --no-startup-id polybar example
 
 exec_always --no-startup-id feh --bg-scale ~/Downloads/wallpapers/a_black_and_white_photo_of_clouds.jpg
 
-exec xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+exec xinput set-prop "ELAN0524:01 04F3:3215 Touchpad" "libinput Tapping Enabled" 1
 
 
 bindsym $mod+d exec rofi -show combi
